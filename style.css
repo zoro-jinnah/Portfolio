@@ -1206,6 +1206,9 @@ padding: 15px;
     .skillss{
         margin: 38px;
     }
+    header{
+        left: 3%;
+    }
 }
 @media (max-width:550px) {
     .text-content {
@@ -1231,8 +1234,14 @@ padding: 15px;
         margin-left: 0px;
     }
     .skillss{
-        margin: 0px;
-    }
+        margin: 28px;
+        }
+        .skills-list{
+            justify-content: center;
+        }
+        .skills-list1{
+            justify-content: center;
+        }
     .containers {
         max-width: 490px;
         margin: 0 auto;
@@ -1310,5 +1319,14 @@ display: none;
     }
     .about-list li{
         line-height: 2;
+    }
+    .skills-list{
+        justify-content: center;
+    }
+    .skills-list1 {
+        justify-content: center;
+    }
+    header{
+        left: 8%;
     }
 }
