@@ -1279,6 +1279,15 @@ display: none;
         width: 135%;
         
     }
+    .about-list li{
+        text-align: center;
+    }
+    .left-side-infos{
+        flex-direction: column;
+    }
+    .right-sideif{
+        margin: 0;
+    }
 }
 @media (max-width:450px){
     .about-list li{
