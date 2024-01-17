@@ -1,0 +1,69 @@
+{
+    "project":[
+        {
+            "img":"imgs/project-1.png",
+            "project_name":"Form-validation",
+            "git_link":"https://github.com/zoro-jinnah/form-validation",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://formvalidationaj.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-2.png",
+            "project_name":"Qr-Code",
+            "git_link":"https://github.com/zoro-jinnah/QR-code",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://qrcodecloneaj.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-3.png",
+            "project_name":"TO-do-list",
+            "git_link":"https://github.com/zoro-jinnah/QR-code",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://qrcodecloneaj.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-4.png",
+            "project_name":"Weather -Forecast",
+            "git_link":"https://github.com/zoro-jinnah/weather-app-main",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://weatherappaj.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-5.png",
+            "project_name":"Music-player",
+            "git_link":"https://github.com/zoro-jinnah/music-player",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://musicplayeaj.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-6.png",
+            "project_name":"Travels",
+            "git_link":"https://github.com/zoro-jinnah/Travels",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://ajtravels.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-7.png",
+            "project_name":"ANime tv",
+            "git_link":"https://github.com/zoro-jinnah/bootstrap",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://ajanime.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        },
+        {
+            "img":"imgs/project-8.png",
+            "project_name":"Sushi restaraunt",
+            "git_link":"https://github.com/zoro-jinnah/Sushi-Restaraunt",
+            "git_img":"imgs/github.png",
+            "netli_link":"https://aj-sushi.netlify.app",
+            "netli_img":"imgs/netlify.png"
+        }
+
+    ]
+}
