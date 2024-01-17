@@ -1242,6 +1242,13 @@ padding: 15px;
         .skills-list1{
             justify-content: center;
         }
+        .skl{
+            width: 180px;
+            height: 180px;
+        }
+        
+        
+        }
     .containers {
         max-width: 490px;
         margin: 0 auto;
