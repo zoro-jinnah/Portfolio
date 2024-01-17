@@ -1280,6 +1280,17 @@ display: none;
         
     }
 }
+@media (max-width:450px){
+    .about-list li{
+        text-align: center;
+    }
+    .left-side-infos{
+        flex-direction: column;
+    }
+    .right-sideif{
+        margin: 0;
+    }
+}
 @media (max-width:400px){
     .text-content div h1 {
         width: 150%;
@@ -1287,5 +1298,8 @@ display: none;
     .typethis {
         width: 150%;
         
+    }
+    .about-list li{
+        line-height: 2;
     }
 }
