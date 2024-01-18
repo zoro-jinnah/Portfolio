@@ -1246,46 +1246,47 @@ padding: 15px;
             width: 180px;
             height: 180px;
         }
-        
+        .containers {
+            max-width: 490px;
+            margin: 0 auto;
+        }
+           
+    .title .resume {
+        display: none;    
         
         }
-    .containers {
-        max-width: 490px;
-        margin: 0 auto;
-    }
-    .title .resume {
-display: none;    
+        .img-about{
+            display: block;
+            text-align: center;
+        }
+        .title {
+            padding: 10px 0;
+        }
+        .cv{
+            text-align: center;
+        }
+        .info h3 {
+           
+            font-size: 22px;
+        }
+        .img-about img{
+            border-radius: 50%;
+            width: 270px;
+            height: 270px;
+            border: 4px solid #252525;
+            margin: 0 auto 25px;
+        }
+        .row-grid li {
+            width: 100%;
+           
+        }
+        .c-right{
+            margin-bottom: 20%
+        }
+        
+        }
 
-}
-.img-about{
-    display: block;
-    text-align: center;
-}
-.title {
-    padding: 10px 0;
-}
-.cv{
-    text-align: center;
-}
-.info h3 {
-   
-    font-size: 22px;
-}
-.img-about img{
-    border-radius: 50%;
-    width: 270px;
-    height: 270px;
-    border: 4px solid #252525;
-    margin: 0 auto 25px;
-}
-.row-grid li {
-    width: 100%;
-   
-}
-.c-right{
-    margin-bottom: 20%
-}
-}
+
    
 @media (max-width:500px) {
     .text-content div h1 {
