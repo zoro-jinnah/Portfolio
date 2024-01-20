@@ -71,16 +71,25 @@ subjectInput.style.border="none"
       message:messageValue
        }
        emailjs.send('service_jbuvzog','template_vlnxzr7',parmas).then(function(ress){
+
+     
         success.style.display="flex"
+        fullNameInput.value=""
+        emailInput.value=""
+        subjectInput.value=""
+        messageInput.value=""
        })
      
-   
+       setTimeout(function () {
+        success.innerHTML = '';
+         
+      }, 5000);
 
    
- 
-    
   
   }
 }
+
+
 
     
