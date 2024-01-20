@@ -918,7 +918,7 @@ column-gap: 30px;
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px;
+    margin-left: -15px;  
 
 }
 .wi{
@@ -940,6 +940,7 @@ column-gap: 30px;
     transition: .3s;
     font-size: 15px;
     text-transform: uppercase;
+    transition: all .9s ease;
 
 }
 .flexi input[type=email]{
@@ -954,6 +955,8 @@ column-gap: 30px;
     transition: .3s;
     font-size: 15px;
     text-transform: uppercase;
+    transition: all .9s ease;
+
 
 }
 .text-area {
@@ -961,6 +964,7 @@ column-gap: 30px;
     flex: 0 0 100% ;
     padding-right: 15px;
     padding-left: 15px;
+
 
 }
 .text-area  textarea {
@@ -979,9 +983,26 @@ column-gap: 30px;
     text-transform: uppercase;
     height: 281px;
     resize: vertical;
+    transition: all .9s ease;
+
+}
+.send{
+    margin-bottom: 15px;
 }
 
+#success{
+    text-transform: capitalize;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    display: none;
 
+}
+.fa-circle-check{
+    color: #72b626;
+    
+    font-size: 22px;
+}
 
 
 @media (max-width:1250px) {
@@ -1154,6 +1175,9 @@ padding: 15px;
 .containers {
     max-width: 750px;
     margin: 0 auto;
+}
+#success{
+    justify-content: center;
 }
 
 }

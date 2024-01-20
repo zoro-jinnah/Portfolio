@@ -12,30 +12,38 @@
 </head>
 
 <body>
-   
-  
+
+
     <header>
         <ul class="icon-menu">
-            <a href="index.html"> <li class="icon-box " id="home-btn"><i class="fa-solid fa-house"></i>
-                <h2>Home</h2>
-        </li></a>
-        <a href="about.html">   <li class="icon-box" id="about-btn"><i class="fa-solid fa-user"></i>
-                <h2>About</h2>
-        </li></a>
-        <a href="proje.html">  <li class="icon-box" id="project-btn"><i class="fa-solid fa-briefcase"></i>
-                <h2>Projects</h2>
-            </li></a>
-            <a href="contact.html">    <li class="icon-box active" id="contact-btn"><i class="fa-regular fa-envelope-open"></i>
-                <h2>Contact</h2>
-            </li></a>
+            <a href="index.html">
+                <li class="icon-box " id="home-btn"><i class="fa-solid fa-house"></i>
+                    <h2>Home</h2>
+                </li>
+            </a>
+            <a href="about.html">
+                <li class="icon-box" id="about-btn"><i class="fa-solid fa-user"></i>
+                    <h2>About</h2>
+                </li>
+            </a>
+            <a href="proje.html">
+                <li class="icon-box" id="project-btn"><i class="fa-solid fa-briefcase"></i>
+                    <h2>Projects</h2>
+                </li>
+            </a>
+            <a href="contact.html">
+                <li class="icon-box active" id="contact-btn"><i class="fa-regular fa-envelope-open"></i>
+                    <h2>Contact</h2>
+                </li>
+            </a>
         </ul>
     </header>
 
     <section class="Contact ">
         <div class="bgg" id="BGM">
-            
+
         </div>
-    
+
         <div class="title">
             <h1>get in <span> touch</span></h1>
             <span class="resume">contact</span>
@@ -52,7 +60,8 @@
                         <p class="contactt"><i class="fa fa-phone-square"></i> <span>call me</span>+91 9597889001</p>
                         <ul class="social-list">
                             <li>
-                                <a target="_blank" href="https://www.linkedin.com/in/mohammed-ali-jinnah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                <a target="_blank"
+                                    href="https://www.linkedin.com/in/mohammed-ali-jinnah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                                     <i class="fa-brands fa-linkedin"></i>
                                 </a>
                             </li>
@@ -62,7 +71,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.instagram.com/aj_v_r_4_6?igsh=MXFuZW1lbW92b2wydQ==">
+                                <a target="_blank"
+                                    href="https://www.instagram.com/aj_v_r_4_6?igsh=MXFuZW1lbW92b2wydQ==">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
                             </li>
@@ -74,25 +84,26 @@
                         </ul>
                     </div>
                     <div class="c-right">
-                        <form class="contact-form">
+                        <form  name="submit-to-google-sheet" class="contact-form">
                             <div class="flexi">
                                 <div class="name wi">
-                                    <input type="text" name="name" placeholder="Your name">
+                                    <input type="text" id="Name" name="name" placeholder="Your name" autocomplete="off">
                                 </div>
                                 <div class="mail wi">
-                                    <input type="email" name="name" placeholder="Your email">
+                                    <input type="email" id="Email" name="name" placeholder="Your email" autocomplete="off">
                                 </div>
                                 <div class="subject wi">
-                                    <input type="text" name="name" placeholder="Your subject">
+                                    <input type="text" id="Subject" name="name" placeholder="Your subject" autocomplete="off">
                                 </div>
                                 <div class="text-area wii">
-                                    <textarea name="" id="" placeholder="your message"></textarea>
+                                    <textarea name="" id="Message" placeholder="your message" autocomplete="off"></textarea>
                                     <div class="send">
-                                        <a class="button" href="">
+                                        <a class="button" id="sendd" href="#">
                                             <span class="button-text"> send message</span>
                                             <span class="button-icon fa-solid fa-paper-plane"></span>
                                         </a>
                                     </div>
+                                    <span id="success">successfully sent  &nbsp; <i class="fa-solid fa-circle-check"></i></span>
                                 </div>
 
                             </div>
@@ -104,9 +115,18 @@
             </div>
         </div>
     </section>
+    </script>
+ 
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+    <script src="contact.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+    <script type="text/javascript">
+        (function(){
+          emailjs.init("yvmMk7IgHmTKu7RBl");
+        })();
+        </script>
 </body>
 
 </html>

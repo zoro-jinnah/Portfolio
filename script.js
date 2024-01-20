@@ -5,11 +5,3 @@ var typed = new Typed(".context",{
     loop:true
 
 })
-
-
-
-
-
-
-
-
