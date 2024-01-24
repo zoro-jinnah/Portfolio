@@ -41,14 +41,6 @@
             "netli_img":"imgs/netlify.png"
         },
         {
-            "img":"imgs/project-6.png",
-            "project_name":"Travels",
-            "git_link":"https://github.com/zoro-jinnah/Travels",
-            "git_img":"imgs/github.png",
-            "netli_link":"https://ajtravels.netlify.app",
-            "netli_img":"imgs/netlify.png"
-        },
-        {
             "img":"imgs/project-7.png",
             "project_name":"ANime tv",
             "git_link":"https://github.com/zoro-jinnah/bootstrap",
